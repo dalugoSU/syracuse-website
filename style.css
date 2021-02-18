@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/back.png);
+    background-position:center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar a:hover{
+    color: orange;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.navbar {
+    animation: 2s ease-out 0s 1 slideFromRight;
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+@keyframes slideFromRight {
+    0% {
+      transform: translatey(-100%);
+    }
+    100% {
+      transform: translatey(0);
+    }
+  }
+
+
+.logo {
+    padding-top: 50px;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    padding-left: 100px;
+}
+
+nav ul li {
+    float: right;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:ivory;
+}
+
+
+.aboutMeContainer {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/back.png);
+    background-position:center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.whyCompSciContainer {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/back.png);
+    background-position:center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.qualificationsContainer {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/back.png);
+    background-position:center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.WhySyracuseContainer {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/back.png);
+    background-position:center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content p {
+    margin-right: 5.5px;
+    margin-left: 5.5px;
+    margin-bottom: 5.5px;
+    margin-top: 90px;
+    color: white;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+
+
+#box {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    right: 400px;
+    bottom: 370px
+}
+
+
+
+#hello {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    right: 430px;
+    bottom: 430px;
+}
+
+
+#orange-bar {
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+    position: fixed;
+    right:350px;
+    bottom: 1px;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-110%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+#me:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+
+#me {
+    position:fixed;
+    right:0px;
+    bottom: 1px 
+}
+
+
+#linkedin:hover {
+    color:rebeccapurple;
+}
+
+#linkedin {
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    left: 600px;
+    top: 660px;
+}
+
+
+#github:hover {
+    color:rebeccapurple;
+}
+
+
+#github {
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    left: 400px;
+    top: 660px;
+}
+
+
+#email:hover {
+    color:rebeccapurple;
+}
+
+#email {
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    left: 200px;
+    top: 660px;
+}
+
+
+
+.button button {
+    background-color: orange;
+    position: fixed;
+    left: 790px;
+    top: 660px;
+}
